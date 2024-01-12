@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00A435517251FB69E00AD424 /* Pods_PocNavExample_PocNavExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F5E3F72798A429154EFB66 /* Pods_PocNavExample_PocNavExampleTests.framework */; };
 		00E356F31AD99517003FC87E /* PocNavExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PocNavExampleTests.m */; };
+		098755DEF13253A50F6CC244 /* Pods_PocNavExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD65C873EF473B31642F5CF4 /* Pods_PocNavExample.framework */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		924D1F3BA606CCCA15FA61F3 /* libPods-PocNavExample-PocNavExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6340265FECED2D8FCE19556E /* libPods-PocNavExample-PocNavExampleTests.a */; };
-		BB121AE3F6E8EF4B3BCCCF2C /* libPods-PocNavExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 102B1976D78390A3EC30C9D2 /* libPods-PocNavExample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,6 @@
 		00E356EE1AD99517003FC87E /* PocNavExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocNavExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* PocNavExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PocNavExampleTests.m; sourceTree = "<group>"; };
-		102B1976D78390A3EC30C9D2 /* libPods-PocNavExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PocNavExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* PocNavExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocNavExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PocNavExample/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = PocNavExample/AppDelegate.mm; sourceTree = "<group>"; };
@@ -40,9 +39,10 @@
 		3B4392A12AC88292D35C810B /* Pods-PocNavExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocNavExample.debug.xcconfig"; path = "Target Support Files/Pods-PocNavExample/Pods-PocNavExample.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-PocNavExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocNavExample.release.xcconfig"; path = "Target Support Files/Pods-PocNavExample/Pods-PocNavExample.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-PocNavExample-PocNavExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocNavExample-PocNavExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-PocNavExample-PocNavExampleTests/Pods-PocNavExample-PocNavExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6340265FECED2D8FCE19556E /* libPods-PocNavExample-PocNavExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PocNavExample-PocNavExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = PocNavExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-PocNavExample-PocNavExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocNavExample-PocNavExampleTests.release.xcconfig"; path = "Target Support Files/Pods-PocNavExample-PocNavExampleTests/Pods-PocNavExample-PocNavExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		BD65C873EF473B31642F5CF4 /* Pods_PocNavExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocNavExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F5E3F72798A429154EFB66 /* Pods_PocNavExample_PocNavExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocNavExample_PocNavExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				924D1F3BA606CCCA15FA61F3 /* libPods-PocNavExample-PocNavExampleTests.a in Frameworks */,
+				00A435517251FB69E00AD424 /* Pods_PocNavExample_PocNavExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB121AE3F6E8EF4B3BCCCF2C /* libPods-PocNavExample.a in Frameworks */,
+				098755DEF13253A50F6CC244 /* Pods_PocNavExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				102B1976D78390A3EC30C9D2 /* libPods-PocNavExample.a */,
-				6340265FECED2D8FCE19556E /* libPods-PocNavExample-PocNavExampleTests.a */,
+				BD65C873EF473B31642F5CF4 /* Pods_PocNavExample.framework */,
+				C3F5E3F72798A429154EFB66 /* Pods_PocNavExample_PocNavExampleTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -466,6 +466,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QHGDKHMAH8;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PocNavExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -493,6 +494,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QHGDKHMAH8;
 				INFOPLIST_FILE = PocNavExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

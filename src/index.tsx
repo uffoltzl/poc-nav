@@ -1,9 +1,14 @@
 import {
-  requireNativeComponent,
-  UIManager,
+  NativeModules,
   Platform,
+  UIManager,
+  requireNativeComponent,
   type ViewStyle,
 } from 'react-native';
+
+const { PocNavModule } = NativeModules;
+
+console.log(PocNavModule);
 
 const LINKING_ERROR =
   `The package 'react-native-poc-nav' doesn't seem to be linked. Make sure: \n\n` +
