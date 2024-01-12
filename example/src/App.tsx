@@ -7,7 +7,7 @@ export default function App() {
   const [routeId, setRouteId] = React.useState<string | null>(null);
   return (
     <View style={styles.container}>
-      <PocNavView color="#32a852" style={styles.box} />
+      {routeId ? <PocNavView style={styles.box} /> : null}
       <Button
         title="Calculate Route"
         onPress={async () => {
@@ -27,8 +27,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   box: {
-    width: 60,
-    height: 60,
+    width: '100%',
+    height: '100%',
     marginVertical: 20,
   },
 });

@@ -1,7 +1,18 @@
+import MapboxDirections
+import MapboxCoreNavigation
+import MapboxNavigation
+
 @objc(PocNavViewManager)
 class PocNavViewManager: RCTViewManager {
 
-  override func view() -> (PocNavView) {
+  override func view() -> (UIView) {
+      if let routeResponse = PocNavModule.routeResponses.first?.value {
+          let indexedRouteResponse = IndexedRouteResponse(routeResponse: routeResponse, routeIndex: 0)
+          let navigationService = MapboxNavigationService(indexedRouteResponse: indexedRouteResponse, credentials: NavigationSettings.shared.directions.credentials, simulating: .always)
+          let navigationOptions = NavigationOptions(navigationService: navigationService)
+          let navigationViewController = NavigationViewController(for: indexedRouteResponse, navigationOptions: navigationOptions)
+          return navigationViewController.view
+      }
     return PocNavView()
   }
 

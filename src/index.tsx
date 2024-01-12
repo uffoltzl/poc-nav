@@ -17,7 +17,6 @@ const LINKING_ERROR =
   '- You are not using Expo Go\n';
 
 type PocNavProps = {
-  color: string;
   style: ViewStyle;
 };
 

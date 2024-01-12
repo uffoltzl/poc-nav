@@ -7,7 +7,7 @@ import MapboxNavigation
 @objc(PocNavModule)
 class PocNavModule: NSObject {
     
-    static var routes : [String: Route] = [:];
+    static var routeResponses : [String: RouteResponse] = [:];
     
     @objc(multiply:withB:withResolver:withRejecter:)
     func multiply(a: Float, b: Float, resolve:RCTPromiseResolveBlock,reject:RCTPromiseRejectBlock) -> Void {
@@ -24,15 +24,9 @@ class PocNavModule: NSObject {
             case .failure(let error):
                 reject("calculate route error", error.localizedDescription, nil);
             case .success(let response):
-                //let indexedRouteResponse = IndexedRouteResponse(routeResponse: response, routeIndex: 0)
-                if let route = response.routes?[0] {
-                    print(route)
-                    let routeId = UUID().uuidString
-                    PocNavModule.routes[routeId] = route
-                    resolve(routeId)
-                } else {
-                    reject("calculate route error", "no route returned", nil);
-                }
+                    let responseId = UUID().uuidString
+                    PocNavModule.routeResponses[responseId] = response
+                    resolve(responseId)
             }
         }
     }
