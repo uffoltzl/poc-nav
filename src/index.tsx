@@ -29,3 +29,7 @@ export const PocNavView =
     : () => {
         throw new Error(LINKING_ERROR);
       };
+
+export const calculateRoute = (): Promise<string> => {
+  return PocNavModule.calculateRoute();
+};
